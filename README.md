@@ -1,6 +1,6 @@
 ## csgparser
 
-File *csgparser.cpp* implements a simple reference parser of CSG format.
+File *csgparser.cpp* implements a simple reference parser of [CSG format](https://github.com/megaton/csg-format).
 It depends on two libs:
 
 * [json11](https://github.com/dropbox/json11)
