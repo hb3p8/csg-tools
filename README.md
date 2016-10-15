@@ -17,6 +17,13 @@ File *csg2json.cpp* implements a simple CSG to JSON back and forth converter whi
 * It performs validation of CSG files (or at least it should)
 * It converts CSG files to JSON so you may stick to JSON both for import and export in your app
 
+## csgviewer
+
+File *csgviewer.cpp* implements a simple OpenGL based CSG 3d viewer.
+
+* Firstly it converts CSG tree to distance field on 3d grid.
+* Then it uploads 3d grid to GPU (3d texture) and renders it interactively.
+
 ## license
 
 MIT License
